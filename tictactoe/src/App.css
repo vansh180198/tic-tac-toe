@@ -1,0 +1,49 @@
+
+.container{
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+ 
+}
+
+.row{
+display:flex
+}
+.col{
+  width:100px;
+  height:100px;
+  border:1px solid black;
+}
+
+.activeplayer{
+  background-color:yellow;
+  padding:3px;
+}
+.player-box{
+  display:flex;
+  justify-content:space-between;
+  width: 300px; 
+  margin:10px;
+
+}
+.col{
+  display:flex;
+  justify-content:center;
+  align-items:center
+}
+.reset{
+  background-color:darkred;
+  color:white;
+  padding:4px;
+  border-radius: 10%;
+  cursor:pointer; margin:10px;
+}
+.reset:hover{
+  cursor:pointer;
+  background-color:red;
+  color:white;
+  padding:4px;
+  border-radius: 10%;
+}
